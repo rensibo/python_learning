@@ -8,14 +8,15 @@
     1.python中有32个保留字
     2.不能用保留字作为标识符
     
-##判断类型
-    1.常见的数据类型有整型int（），浮点型float（），复数complex()，字符串''等
+## 判断类型
+    数据类型：数据类型指的就是变量的值得类型，也就是可以为变量赋哪些值
+    1.常见的数据类型有整型int（），浮点型float（），复数complex()，字符串''布尔值，空值等
     2.print(type(a))#判断a的数据类型并打印
     3.print(type(a) == foloat）#判断a的数据类型是不是浮点数并打印
     4.print(isinstance (a,int))#判断a的数据类型是不是整型并打印
        【isinstance() 函数来判断一个对象是否是一个已知的类型】
     5.布尔类型（boollean），只有true和false两个值通常来判断条件是否成立。如果变量值为0，则为false，否则为true
-##数值运算符
+## 数值运算符
     加   +
     减   —
     乘   *
@@ -23,13 +24,13 @@
     幂   **  （例：a**b，a的b次方）
     返回除法的余数     %    （例：5/2=2.5，商2余1，取余数，最终得1）
     取商的整数部分     //   （例：5/2=2.5，取得数的整数部分，最终得2）
-##while循环
+## while循环
      1.while后面要加判断词，或者判断次数；while true，则固定被看作永远为真的表达式；while （i<10）,循环的次数小于10次
      2.while循环语句中包括continue，和break两个标识符，continue表示跳过当次循环；break表示跳过当前循环
-##for循环
+## for循环
      1.知道执行次数的时候一般用for，（执行一系列的元素，直至元素判断完）
      2.可以设置执行次数
-##digit 
+## digit 
      1.digit 指0-9的任意一个数
      2.Return True if the string is a digit string, False otherwise
      3. isdigit() 方法检测字符串是否只由数字组成            
