@@ -86,7 +86,7 @@ print(13 % 5)  # 3
 
 #
 
-while True:
+'''while True:
     num = input("需要判断的数值：")
 
     # print(num.isdigit())
@@ -121,4 +121,14 @@ print(num.isdigit())
 
 print(num.isdigit() == 1)
 
-# print(~1)
+# print(~1)'''
+
+sum = 0
+i = 1
+while i <=100:
+    sum += i
+    i += 2
+print(sum)
+
+num = input('请输入数值:')
+while num
