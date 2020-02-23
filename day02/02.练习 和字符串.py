@@ -65,7 +65,7 @@ else:
     print('你所输入的三边不能构成三角形')
 
 index = 100
-while index < 1000:
+while  index < 1000:
     a = index // 100
     b = index // 10 % 10
     c = index  % 10
