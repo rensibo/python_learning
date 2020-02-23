@@ -65,10 +65,10 @@ else:
     print('你所输入的三边不能构成三角形')
 
 index = 100
-while index <1000
+while index < 1000:
     a = index // 100
     b = index // 10 % 10
     c = index  % 10
-    if a**3 + b**3 + c**3 = index
-    index =+ 1
-    print('this is a 水仙花数：%d ' % (index))
+    if a**3 + b**3 + c**3 == index:
+       print('this is a 水仙花数：%d ' % index)
+    index += 1
