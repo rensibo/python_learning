@@ -56,13 +56,16 @@ else:
 line_one = float(input ('第一条边：'))
 line_two = float(input ('第二条边：'))
 line_three = float(input ('第三条边：'))
-if line_one + line_two > line_three and line_one + line_three > line_two and line_three + line_two > line_one:
-    p = (line_one + line_two + line_three)/2
+if line_one + line_two > line_three and line_one + line_three > line_two and line_three + line_two > line_one:#任意两边之和大于第三边
+    p = (line_one + line_two + line_three)/2 #周长/2
     q = p * (p - line_one) * (p - line_two) * (p - line_three)
     s = q ** 0.512
     print ('三角形的面积是：%f' % (s)  )
 else:
     print('你所输入的三边不能构成三角形')
+
+
+
 
 index = 100
 while  index < 1000:
