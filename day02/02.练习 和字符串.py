@@ -75,3 +75,5 @@ while  index < 1000:
     if a**3 + b**3 + c**3 == index:
        print('this is a 水仙花数：%d ' % index)
     index += 1
+
+
