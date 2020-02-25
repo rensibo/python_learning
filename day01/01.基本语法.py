@@ -125,7 +125,7 @@ print(num.isdigit() == 1)
 
 sum = 0
 i = 1
-while i <=100:
+while i <= 100:
     sum += i
     i += 2
 print(sum)

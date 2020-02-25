@@ -1,5 +1,5 @@
-#学习注释
-#1.git的基本操作
+# 学习注释
+# 1.git的基本操作
 # git init 初始化仓库
 # git add . 添加文件到仓库
 # git commit -m "message"  增加提交记录
